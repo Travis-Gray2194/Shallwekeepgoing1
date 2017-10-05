@@ -18,7 +18,7 @@ public class shallweKeep {
         text = keyboard.nextLine();
 
 
-//Notes;equals() & equalsIgnoreCase() and Both of these methods are used for comparing two strings.
+//Notes: equals() & equalsIgnoreCase() and Both of these methods are used for comparing two strings.
 // The only difference between them is that the equals() methods considers the case while equalsIgnoreCase() methods ignores the case during comparison.
 // For e.g. The equals() method would return false if we compare the strings “TEXT” and “text” however equalsIgnoreCase() would return true.
         while(!text.equalsIgnoreCase("N")){
